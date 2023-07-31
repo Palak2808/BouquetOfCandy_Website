@@ -1,0 +1,72 @@
+body{
+    background: rgb(243, 196, 204);
+}
+.head{
+    color: red;
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+#mainnavbar .navbar-brand{
+    color: red;
+
+}
+#mainnavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainnavbar .nav-link{
+    color:white;
+}
+#mainnavbar .nav-link:hover{
+    color: red;
+}
+#headingGroup span{
+    color: red;
+    font-size: 3.5rem;
+}
+#headingGroup h2{
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.lead{
+    color: rgb(224, 67, 119);
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.navbar .scrolled{
+    background-color: rgb(235, 11, 201);
+    transition: background 500ms;
+}
+#inner{
+    /* border: 0.6px solid rgb(237, 4, 214); */
+    width:500px;
+    height: 530px;
+    padding: 20px;
+    /* background-color: rgb(242, 203, 248);  
+     */
+}
+#btn{
+    border: 1px inset black;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 1rem;
+}
+#btn:hover{
+    background-color: black;
+    color: rgb(243, 196, 204);;
+    /* border: 2px solid pink; */
+    font-size: 1.5rem;
+}
+
+@media(max-width:1200px)
+{
+    #headingGroup h2{
+        font-weight: 70;
+        font-size: 1.8rem;
+    }
+}
